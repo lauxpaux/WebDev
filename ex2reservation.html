@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+    nav a {
+    display: inline;
+    margin-right: 10px;
+    color: purple;
+    }
+
+    .input {
+        margin-left: 40px;
+        align-self: justify;
+    }
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Reservations Form</h1>
+</header>
+
+<nav>
+    <a href="ex2SelfTest2.html">Home</a>
+    <a href="ex2yurts.html">Yurts</a>
+    <a href="ex2activities.html">Activities</a>
+    <a href="">Reservation</a>
+</nav>
+
+<h2>Activities at Montclair Trails</h2>
+
+</body>
+<form>
+    First Name:
+    <input type="text" name="firstname" class="input"><br>
+    Last Name: 
+    <input type="text" name="lastname" class="input" ><br>
+    <b>Address</b><br>
+    Number & Street: 
+    <input type="text" name="street" class="input"><br>
+    City: 
+    <input type="text" name="city" class="input"><br>
+    State:
+    <input type="text" name="state" class="input"><br>
+    Zip Code:
+    <input type="text" name="zipcode" class="input"><br>
+    Check-in Date:
+    <input type="date" name="date" class="input"><br>
+    Check-out Date:  
+    <input type="date" name="date" class="input"><br>
+    Phone:
+    <input type="text" name="phone" placeholder="(###) ###-####" class="input" required><br>
+    E-mail Address: 
+    <input type="email" name="email" placeholder="name@domain.com" class="input"><br>
+    Payment Method:
+    <input type="text" name="payment" class="input"><br>
+    <datalist>
+        <option value="MC">MasterCard</option>
+        <option value="VISA">VISA</option>
+        <option value="AMEX">American Express</option>
+        <option value="Discover"></option>
+    </datalist>
+    Card Number:
+    <input type="text" name="cardnumber" class="input"><br>
+</form>
+
+<b>Special Requests:</b>
+<textarea name="requests" form="usrform" placeholder="Enter your request here"rows="5" cols="40" class="input"></textarea>
+<br><br>
+
+<button type="button">Submit Form</button>
+<button type="button">Clear</button>
+<br>
+
+<br>
+<address>
+    Copyright @ 2018 Montclair Red Hawk Resort<br>
+    <a href="mailto:adamespaull1@montclair.edu">adamespaull1@montclair.edu</a><br>
+    
+</address>
+
+</html>
